@@ -1,0 +1,27 @@
+[
+  {
+    "expression": "1",
+    "result": "",
+    "py/object": "generator.test_data.TestData"
+  },
+  {
+    "expression": "9876543210.0123456",
+    "result": "",
+    "py/object": "generator.test_data.TestData"
+  },
+  {
+    "expression": "9876543210.0123456789",
+    "result": "",
+    "py/object": "generator.test_data.TestData"
+  },
+  {
+    "expression": "1+2=",
+    "result": "",
+    "py/object": "generator.test_data.TestData"
+  },
+  {
+    "expression": "62.03+53.02=",
+    "result": "",
+    "py/object": "generator.test_data.TestData"
+  }
+]

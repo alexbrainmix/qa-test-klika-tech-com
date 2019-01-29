@@ -1,0 +1,22 @@
+[
+  {
+    "expression": "9876543210.0123456789+1.0-1.0x2/2.0=",
+    "result": "9876543210",
+    "py/object": "generator.test_data.TestData"
+  },
+  {
+    "expression": "1+1=",
+    "result": "2",
+    "py/object": "generator.test_data.TestData"
+  },
+  {
+    "expression": "0.03+0.02=",
+    "result": "0.05",
+    "py/object": "generator.test_data.TestData"
+  },
+  {
+    "expression": "62.03+53.02=",
+    "result": "115.05",
+    "py/object": "generator.test_data.TestData"
+  }
+]

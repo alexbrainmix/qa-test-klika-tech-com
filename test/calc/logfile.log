@@ -1,0 +1,11 @@
+[2019-01-29 16:09:05,788] klika-tech DEBUG    application.py[LINE:12] chrome
+[2019-01-29 16:09:05,788] klika-tech DEBUG    application.py[LINE:14] OS: win32
+[2019-01-29 16:09:08,004] klika-tech DEBUG    application.py[LINE:60] http://qa-test.klika-tech.com/
+[2019-01-29 16:09:10,503] klika-tech INFO     helper.py[LINE:8] test_calc
+[2019-01-29 16:09:10,504] klika-tech DEBUG    helper.py[LINE:16] 9876543210.0123456789+1.0-1.0x2/2.0=9876543210
+[2019-01-29 16:09:11,684] klika-tech INFO     helper.py[LINE:8] test_calc
+[2019-01-29 16:09:11,684] klika-tech DEBUG    helper.py[LINE:16] 1+1=2
+[2019-01-29 16:09:11,848] klika-tech INFO     helper.py[LINE:8] test_calc
+[2019-01-29 16:09:11,848] klika-tech DEBUG    helper.py[LINE:16] 0.03+0.02=0.05
+[2019-01-29 16:09:12,150] klika-tech INFO     helper.py[LINE:8] test_calc
+[2019-01-29 16:09:12,150] klika-tech DEBUG    helper.py[LINE:16] 62.03+53.02=115.05

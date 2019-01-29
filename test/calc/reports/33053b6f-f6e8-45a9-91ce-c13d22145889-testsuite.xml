@@ -1,0 +1,278 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1548767345786" stop="1548767352543">
+  <name>test_calc</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1548767345786" status="passed" stop="1548767348516">
+      <name>test_ac[1]</name>
+      <attachments>
+        <attachment source="b1d93930-47dd-4fc6-adf8-b135da6230c4-attachment.txt" title="Captured log setup" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767348519" status="passed" stop="1548767348641">
+      <name>test_ac[2]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767348642" status="passed" stop="1548767348766">
+      <name>test_ac[3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767348767" status="passed" stop="1548767348915">
+      <name>test_ac[4]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767348916" status="passed" stop="1548767349053">
+      <name>test_ac[5]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767349054" status="passed" stop="1548767349168">
+      <name>test_ac[6]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767349169" status="passed" stop="1548767349285">
+      <name>test_ac[7]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767349286" status="passed" stop="1548767349418">
+      <name>test_ac[8]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767349419" status="passed" stop="1548767349536">
+      <name>test_ac[9]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767349537" status="passed" stop="1548767349663">
+      <name>test_ac[0]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767349664" status="failed" stop="1548767349798">
+      <name>test_ac[.]</name>
+      <failure>
+        <message>AssertionError: assert '' == '.'
+  + .</message>
+        <stack-trace>app = &lt;fixture.application.Application object at 0x0000021612DE1BA8&gt;
+symbol = '.'
+
+    @pytest.mark.parametrize("symbol", symbols)
+    def test_ac(app, symbol):
+        init(app)
+        app.calc.click_symbol(symbol)
+&gt;       assert app.calc.get_display_text() == symbol
+E       AssertionError: assert '' == '.'
+E         + .
+
+test_calc.py:16: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767349800" status="failed" stop="1548767350495">
+      <name>test_maximum_digit_capacity</name>
+      <failure>
+        <message>AssertionError: assert '10000000000000000' == '9999999999999999'
+  - 10000000000000000
+  + 9999999999999999</message>
+        <stack-trace>app = &lt;fixture.application.Application object at 0x0000021612DE1BA8&gt;
+
+    def test_maximum_digit_capacity(app):
+        init(app)
+        symbol = "9"
+        max_number_str = ""
+        while app.calc.get_display_text() == max_number_str:
+            app.calc.click_symbol(symbol)
+            max_number_str += symbol
+&gt;       assert app.calc.get_display_text() == max_number_str
+E       AssertionError: assert '10000000000000000' == '9999999999999999'
+E         - 10000000000000000
+E         + 9999999999999999
+
+test_calc.py:28: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767350497" status="failed" stop="1548767351675">
+      <name>test_calc[9876543210.0123456789+1.0-1.0x2.2.0=9876543210]</name>
+      <failure>
+        <message>AssertionError: assert '9876543209.012346' == '9876543210'
+  - 9876543209.012346
+  + 9876543210</message>
+        <stack-trace>app = &lt;fixture.application.Application object at 0x0000021612DE1BA8&gt;
+calc_calcjson = 9876543210.0123456789+1.0-1.0x2/2.0=9876543210
+
+    def test_calc(app, calc_calcjson):
+        test_data = calc_calcjson
+        enter_symbols(app, test_data)
+&gt;       assert app.calc.get_display_text() == test_data.result
+E       AssertionError: assert '9876543209.012346' == '9876543210'
+E         - 9876543209.012346
+E         + 9876543210
+
+test_calc.py:40: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="cfa617a2-fd3a-4d5c-99b4-e408394bd877-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767351679" status="passed" stop="1548767351839">
+      <name>test_calc[1+1=2]</name>
+      <attachments>
+        <attachment source="44862d13-d070-44fc-91a4-42effb31ee5b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767351842" status="passed" stop="1548767352140">
+      <name>test_calc[0.03+0.02=0.05]</name>
+      <attachments>
+        <attachment source="91c22b52-1042-49ad-9419-92c667588bd7-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1548767352144" status="failed" stop="1548767352543">
+      <name>test_calc[62.03+53.02=115.05]</name>
+      <failure>
+        <message>AssertionError: assert '115.05000000000001' == '115.05'
+  - 115.05000000000001
+  + 115.05</message>
+        <stack-trace>app = &lt;fixture.application.Application object at 0x0000021612DE1BA8&gt;
+calc_calcjson = 62.03+53.02=115.05
+
+    def test_calc(app, calc_calcjson):
+        test_data = calc_calcjson
+        enter_symbols(app, test_data)
+&gt;       assert app.calc.get_display_text() == test_data.result
+E       AssertionError: assert '115.05000000000001' == '115.05'
+E         - 115.05000000000001
+E         + 115.05
+
+test_calc.py:40: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="bad3ef8d-b61c-46d8-843d-5e6a817f2125-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14400-MainThread"/>
+        <label name="host" value="DESKTOP-2IASKEC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

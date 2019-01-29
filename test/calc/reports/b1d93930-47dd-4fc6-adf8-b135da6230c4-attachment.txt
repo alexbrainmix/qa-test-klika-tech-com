@@ -1,0 +1,3 @@
+application.py              12 DEBUG    chrome
+application.py              14 DEBUG    OS: win32
+application.py              60 DEBUG    http://qa-test.klika-tech.com/

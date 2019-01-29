@@ -1,0 +1,24 @@
+{
+   "firefox":{
+      "name": "firefox",
+      "path": "c:/Program Files/Mozilla Firefox/firefox.exe",
+      "profile": "c:/Users/USER/AppData/Roaming/Mozilla/Firefox/Profiles/7fy6t0z0.default",
+      "path_linux": "/usr/bin/firefox",
+      "profile_linux": null
+   },
+   "chrome":{
+      "name": "chrome"
+   },
+   "ie":{
+      "name": "ie"
+   },
+   "edge":{
+      "name": "edge"
+   },
+   "opera":{
+      "name": "opera"
+   },
+   "remote":{
+      "name": "remote"
+   }
+}
